@@ -55,6 +55,27 @@ type command : sudo -l to  see what the current user can execute without the roo
 
 ![img](13.png)
 
+we can that the current user can execute backup.pl file lets cat that file and we found that it is execute another file named copy.sh 
+
+lets cat copy.sh file 
+in that we can see that it is executuing a nc command lets change the ip value to our machine and start the nc listener in new terminal  on port 5554
+
+execute the file 
+
+![img](14.png)
+
+we succesfully got the shell with root privilage 
+
+![img](15.png)
+
+navigate to root directory and cat the root.txt to get the second flag
+
+![img](16.png)
+
+We succesfully found our second flag
+
+---------------------------------------------------THE END-----------------------------------------------------
+
 
 
 

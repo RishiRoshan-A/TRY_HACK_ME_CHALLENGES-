@@ -25,7 +25,7 @@ we found as username as manager and the passowrd is in hashed format lets crack 
 
 we found the passowrd of the hash as going through the directories we found in gobuster in /as path there is a login page lets try login with our found credentials 
 
-![img](8(2).png)
+![img](8 (2).png)
 
 as we succesfully loged in , i found a section where we can upload files so lets download a php reverse shell from github pentest monkey 
 

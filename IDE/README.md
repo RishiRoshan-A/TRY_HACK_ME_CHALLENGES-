@@ -75,3 +75,49 @@ lets switch to tty terminal to upadte to drac user
 ![img](16.png)
 
 we succesfully found the user.txt
+
+we know the username and password for drac lets try login with ssh 
+
+![img](17.png)
+
+type : sudo -l 
+
+to see what user drac can execute with root permission 
+
+![img](18.png)
+
+we found vstfpd restart service 
+so if we insert a reverse shell in the vstfpd.service file and execute we gain a reverse shell with root privilage
+
+use command : locate vstfpd.ervice to see the file location 
+
+i used reverse shell generator to generator a reverse_shell
+
+![img](19.png)  
+
+change sh to bash since we are working on a bash shell
+
+use nano vstfpd.service to edit the file 
+
+in EXEC_START = /bin/bash -c <payload> 
+
+save and exit
+
+set up a netcat listener and execute the vsftpd restart service
+
+![img](20.png)
+
+we got an connection in out netcat listener
+
+![img](21.png)
+
+navigate to root directory and cat the root flag
+
+![img](23.png)
+
+we succesfully found the root flag
+
+-----------------------------------------------THE END--------------------------------------------------------------
+
+
+

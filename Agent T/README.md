@@ -24,7 +24,7 @@ Then i used wapallyer exxtension to see the technologies they are using
 
 Here the php version seems vulnerable , i also used curl command to check the php version 
 
-![img](6.php)
+![img](6.png)
 
 Here i got the exact service and version of php 
 

@@ -116,7 +116,7 @@ modify print.sh
 
 ![img](25.png)
 
-Wait until until the root executes planner.sh
+Wait until the root executes planner.sh
 
 ![img](26.png)
 

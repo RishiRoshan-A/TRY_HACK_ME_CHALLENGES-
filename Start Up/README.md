@@ -6,7 +6,7 @@ lets perform default script scan and service dection scan on these three open po
 
 Mean while lets use gobuster to enerumate web directories
 
-![img](4.pmg)
+![img](4.png)
 
 We found a directory files lets navigate to it 
 

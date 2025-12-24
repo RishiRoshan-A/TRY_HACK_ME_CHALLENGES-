@@ -67,7 +67,7 @@ Lets go to the login page and try with our found username and password
 
 We cant login , i think this is a prank too
 
-i one second all the web direcctories and also inspected pages for any information disclosure but no juicy information found 
+i one second checked all the web direcctories and also inspected pages for any information disclosure but no juicy information found 
 
 So Lets try sql injection on these login pages , i used burp intruder to test for combinations of sql payloads
 

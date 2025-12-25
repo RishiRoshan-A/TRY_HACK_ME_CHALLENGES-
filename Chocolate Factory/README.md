@@ -74,4 +74,52 @@ and login into ssh as user charlie
 
 We successfully login into ssh now lets  view the user.txt flag
 
+![img](18.png)
+
+We have to esclalate our privilage to root in order to find the root flag 
+
+Type command : sudo -l 
+
+Shows what user charlie can run with root privilage 
+
+![img](19.png)
+
+seems user charlie can run vi with root privilage , lets try to exploit it 
+i used gtfo bins for the esclation
+
+![img](20.png)
+
+We successfully esclated our privilage to root
+
+![img](21.png)
+
+Lets naviagte to root directory , instead of root.txt there is a python file named root.py
+
+![img](22.png)
+
+Lets see the contens of the file 
+
+![img](23.png)
+
+Its asking for a key to decryt the flag 
+
+In nmap scan we found the path to the key , lets download that and see the content of it
+
+![img](24.png)
+
+We successfully found the key , lets run the python script and enter the key
+
+![img](25.png)
+
+i think some modules are not installed , so lets copy the python script into our system and try it 
+
+
+![img](26.png)
+
+We successfully found the root flag
+
+------------------------------------------------THE END------------------------------------------------------
+
+
+
 

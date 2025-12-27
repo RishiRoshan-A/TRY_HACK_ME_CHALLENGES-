@@ -65,7 +65,7 @@ There is a change in content length in code 73 , go to response and click on ren
 
 i thought this would be the ssh password and tried to brute force the username with hydra , but it didnt work
 
-Then remebered about the jpg file lets use this as a passkey and try to retrive any information
+Then remebered about the jpg file lets use this as a passphase and try to retrive any information
 
 ![img](17.png)
 

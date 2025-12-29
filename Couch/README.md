@@ -55,13 +55,20 @@ Then in /home/directory there is a hidden file named .bash_history  , lets visit
 We found a docker command : docker -H 127.0.0.1:2375 run --rm -it --privileged --net=host -v /:/mnt alpine
 
 Where -H --> connect to the host 
-      run--> run the docker container
-      -rm--> clean up everything once finished
-      -it--> spawns a interactive shell
-      --privileged--> gives the container root privilages
-      --net=host--> shares the connection with the host system
-      -v /:/mnt --> copy the root file system into the /mnt directory 
-      alpine --> tiny linux os
+
+run--> run the docker container
+
+-rm--> clean up everything once finished
+
+-it--> spawns a interactive terminal
+
+--privileged--> gives the container root privilages
+
+--net=host--> shares the connection with the host system
+
+-v /:/mnt --> copy the root file system into the /mnt directory
+
+alpine --> tiny linux os
 
 In this command there is no authentication provided , so anyone can login into docker container
 
@@ -93,7 +100,7 @@ We can create a tunnel by ssh which is known as ssh tunneling
 
 ![img](15.png)
 
-Now our system can directly communicate and excute commans in the docker 
+Now our system can directly communicate and excute commands in the docker 
 
 ![img](16.png)
 

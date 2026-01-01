@@ -66,7 +66,7 @@ and usually located in /var/www/html
 
 lets view the file 
 
-![img](16.php)
+![img](16.pnp)
 
 We successfully got the password for user c0ldd , lets esclate to c0ldd user and read the user flag 
 

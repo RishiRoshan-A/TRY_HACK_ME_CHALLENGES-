@@ -48,6 +48,50 @@ Lets go to home directory
 
 ![img](13.png)
 
+We successfully found the user file 
+
+lets esclate our privilage to find the root flag 
+
+seems like we cant run sudo as this current user 
+
+so lets find the files with suid permissions
+
+![img](14.png)
+
+systemctl command is used to enable,start or stop a service like ssh,ftp etc..
+
+so we can create a service named root.service where we can able to spawn a reverse shell
+
+![img](15.png)
+
+lets start a python server and get the root.service file on the target system
+
+![img](16.png)
+
+use wget command to get the file
+
+![img](17.png)
+
+seems like our permission is denied so lets naviagte to tmp directory and try there
+
+![img](18.png)
+
+set up a nc listener
+
+enable and start the root.service
+
+![img](19.png)
+
+We successfully got the reverse shell
+
+![img](20.png)
+
+we successfully found the root flag 
+
+
+
+
+
 
 
 

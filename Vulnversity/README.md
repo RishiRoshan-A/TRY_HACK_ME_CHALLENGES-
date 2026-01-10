@@ -20,7 +20,7 @@ in path /internal we can able to upload files , lets try file upload vulnerablit
 
 ![img](6.png)
 
-Semms the php extension , so lets different extensions 
+Seems the php extension is not allowed , so lets different extensions 
 
 after trying many exxtensions .phtml worked 
 

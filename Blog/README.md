@@ -84,7 +84,7 @@ What values are returned
 
 The program checks environment variable admin
 
-so type command = export admin=<anything>
+so type command = export admin=anything
 
 and run the program 
 

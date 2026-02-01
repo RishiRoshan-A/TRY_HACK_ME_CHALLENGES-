@@ -94,6 +94,6 @@ we successfully got the root shell , now lets visit the ssh private key
 
 ![img](20.png)
 
-
+------------------------------------------------THE END-------------------------------------------------
 
 

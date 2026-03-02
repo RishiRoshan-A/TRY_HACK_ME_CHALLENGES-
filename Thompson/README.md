@@ -1,4 +1,4 @@
-## Lets start with an Namp Scan 
+## Lets start with an Nmap Scan 
 
 ![img](1.png)
 
